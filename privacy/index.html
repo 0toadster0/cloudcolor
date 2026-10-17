@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Privacy Policy · Cloud Color</title>
-<meta name="description" content="How Cloud Color handles your information: your coloring stays on your device, no account, no ads, no tracking.">
+<meta name="description" content="How Cloud Color handles your information: your coloring stays on your device; optional usage statistics only if you turn them on; no account, no ads, no tracking.">
 <link rel="icon" href="../assets/favicon-32.png" type="image/png">
 <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
 <link rel="stylesheet" href="../assets/style.css">
@@ -22,14 +22,14 @@
 
 <main>
 <h1>Privacy Policy</h1>
-<p class="meta">Effective 17 October 2026 · Version 1 · Applies to Cloud Color for iPhone and iPad, version 1.0 and later</p>
+<p class="meta">Effective 17 October 2026 · Version 2 · Applies to Cloud Color for iPhone and iPad, version 1.0 and later</p>
 
 <div class="card soft">
   <h2 style="margin-top:0">The short version</h2>
   <ul>
     <li><strong>Your coloring stays on your device.</strong> Pictures, progress and settings are saved only on your iPhone or iPad.</li>
     <li><strong>No account, no ads, no tracking.</strong> We don't use the advertising identifier and don't follow you across other apps or websites.</li>
-    <li><strong>No usage statistics.</strong> This version of the app does not send us statistics about how you use it.</li>
+    <li><strong>Usage statistics only if you say yes.</strong> When you first open the app, you choose <em>Share and Begin</em> or <em>Begin Without Sharing</em>. Statistics about how the app is used — like which pictures are started and finished — are sent only if you choose to share, and you can change your mind anytime.</li>
     <li><strong>Purchases go through Apple.</strong> We never see your payment details. Our subscription service, RevenueCat, receives your purchase history and a random ID so the app can confirm Premium.</li>
     <li><strong>We never sell your information.</strong></li>
   </ul>
@@ -43,9 +43,22 @@
 <p>Your colored pictures and progress, your choices in the app (such as sounds, haptics and replays), hint counts, the picture the Home Screen widget shows, and a copy of your Premium status are stored only on your device. We can't see them. They are included in your device backups if you use iCloud or computer backups (handled by Apple under your own settings). Deleting the app deletes them from your device.</p>
 <p>The app does not ask for, and cannot access, your name, email, contacts, photos, location, microphone or camera. When you share a finished picture, the app hands the image to the iOS share sheet; where it goes is your choice, and we receive nothing.</p>
 
-<h2 id="statistics">3. Usage statistics</h2>
-<p><strong>This version of Cloud Color does not collect usage statistics.</strong> No information about how you use the app is sent to us or to an analytics service.</p>
-<p>The app contains an optional statistics feature that is switched off in this version. If we turn it on in a future version, we will first update this policy to explain exactly what would be shared and with whom, and the app will ask for your permission — off unless you turn it on, changeable at any time in <em>Settings → Privacy &amp; Data</em>, and never required to use the app.</p>
+<h2 id="statistics">3. Usage statistics — only if you turn them on</h2>
+<p>When you first open the app, the welcome screen asks whether you'd like to share usage statistics: choose <strong>Share and Begin</strong> or <strong>Begin Without Sharing</strong>. No usage statistics are sent unless you choose to share. You can change your choice at any time in <em>Settings → Privacy &amp; Data</em> (the gear on Home). The app works exactly the same either way.</p>
+<p>If you choose <strong>Begin Without Sharing</strong>, the app sends no usage statistics and creates no analytics ID. Purchases still work as described in <a href="#purchases">section 4</a>: Apple and our subscription service, RevenueCat, still process the information needed to show prices, confirm and restore Premium.</p>
+<h3>What is shared if you turn it on</h3>
+<ul>
+  <li><strong>How the app is used</strong>, for example: which pictures are opened, started and finished (by the picture's name and catalog ID, category, difficulty and whether it is free, Starter, Daily or Premium), progress milestones (25%, 50%, 75%), whether a coloring is a first coloring or a recolor, hints, replays and the share button used, which screens are visited, taps on locked or Premium pictures, opening the app from its widget, whether the short tutorial was finished or skipped, how long coloring sessions last, Daily picture participation, when the app asks Apple to show its rating request, and the Premium screen: when it is shown, which plan is selected, and whether a purchase or restore succeeded, was cancelled or failed.</li>
+  <li><strong>Technical context:</strong> app version and build, iOS version, iPhone or iPad, whether you have Premium, a random ID for the current app session, and the time of each event. For people who turned statistics on in their first session, also the day the app was installed and how many days ago that was.</li>
+  <li>A <strong>random analytics ID</strong> created on your device when you turn statistics on. It is not your name, email, Apple Account or advertising identifier. You can see and copy it in <em>Settings → Privacy &amp; Data</em>.</li>
+</ul>
+<h3>What is never shared</h3>
+<p>Your name, email, Apple Account, contacts, photos, location, the advertising identifier, your artwork or anything you type. Activity from before you turned statistics on is never sent later. When you turn statistics off, sharing stops at once and anything not yet sent is deleted from your device.</p>
+<h3>Why</h3>
+<p>To understand and improve Cloud Color — for example which pictures people enjoy and finish, where the tutorial is confusing, whether people come back, and how the Premium screen works. We don't use statistics for advertising, don't sell them and don't combine them with information from other companies.</p>
+<h3>Who processes them</h3>
+<p>Statistics are processed for us by <strong>PostHog, Inc.</strong> (servers in the United States). PostHog keeps them under your random analytics ID; we never add your name or other personal details. The app asks PostHog not to work out your location from your IP address, and our PostHog project is set to discard IP addresses, so they are not stored with the statistics. Apart from PostHog, the analytics ID is not shared with anyone — including RevenueCat.</p>
+<p><strong>Legal basis</strong> (where the GDPR or UK GDPR applies): your consent, which you can withdraw at any time.</p>
 
 <h2 id="purchases">4. Purchases and Premium</h2>
 <p>Premium is an optional auto-renewable subscription. You buy it with your Apple Account through Apple's in-app purchase system; Apple processes the payment, and we never see your payment details.</p>
@@ -81,6 +94,7 @@
   <thead><tr><th>Information</th><th>Kept</th></tr></thead>
   <tbody>
     <tr><td>Coloring, progress and settings</td><td>On your device until you delete the app</td></tr>
+    <tr><td>Usage statistics (only if you turned them on)</td><td>Kept in PostHog for our plan's retention period (currently one year from when they were sent). After that they are no longer available to us, and PostHog may permanently delete them. You can ask us to delete them sooner (section 11).</td></tr>
     <tr><td>Purchase records and the random customer ID (RevenueCat)</td><td>While we use RevenueCat to provide Premium, unless you ask us to delete them; some purchase records may be kept longer where tax or accounting law requires it</td></tr>
     <tr><td>Support messages (email and contact form)</td><td>Up to 12 months after your request is resolved, then deleted — unless the law requires us to keep them longer</td></tr>
   </tbody>
@@ -88,10 +102,12 @@
 </div>
 
 <h2 id="transfers">10. International transfers</h2>
-<p>Our service providers (RevenueCat, Formspree, GitHub) process information in the United States and possibly other countries. Where data protection laws require it — for example for people in the European Economic Area, the United Kingdom or Switzerland — these transfers rely on appropriate safeguards, such as the European Commission's Standard Contractual Clauses (and their UK equivalent) in the providers' data processing terms, or on an adequacy decision where one applies.</p>
+<p>Our service providers (PostHog, RevenueCat, Formspree, GitHub) process information in the United States and possibly other countries. Where data protection laws require it — for example for people in the European Economic Area, the United Kingdom or Switzerland — these transfers rely on appropriate safeguards, such as the European Commission's Standard Contractual Clauses (and their UK equivalent) in the providers' data processing terms, or on an adequacy decision where one applies.</p>
 
 <h2 id="rights">11. Your choices and rights</h2>
 <ul>
+  <li><strong>Turn usage statistics on or off</strong> anytime in <em>Settings → Privacy &amp; Data</em>. Turning them off withdraws your consent for the future; it doesn't affect statistics already shared.</li>
+  <li><strong>Access or delete statistics already shared:</strong> contact us and include your <strong>analytics ID</strong> from <em>Settings → Privacy &amp; Data</em>. Because we don't know who you are, the ID is how we find your data.</li>
   <li><strong>Delete what's on your device:</strong> delete the app.</li>
   <li><strong>Subscriptions:</strong> manage or cancel Premium in your Apple Account settings (see <a href="../support/#billing">Support</a>).</li>
   <li><strong>Ask us</strong> to access, correct or delete personal information we hold — for example your support messages, or the purchase records RevenueCat keeps for us — using the <a href="../support/#contact">contact form</a> or <a href="mailto:filterdudemain@gmail.com">filterdudemain@gmail.com</a>. Because the app has no accounts, we may ask for details that help us find the right records.</li>
@@ -99,13 +115,13 @@
 <p>Depending on where you live, you may also have the right to restrict or object to processing, to data portability, and to complain to your local data protection authority. We will answer within one month, or sooner where your local law requires. We don't sell or share personal information as those terms are defined by California law, and we don't use it for targeted advertising or for decisions with legal effects.</p>
 
 <h2 id="children">12. Children</h2>
-<p>Cloud Color is made for a general audience. It is not specifically directed at children under 13, and we do not knowingly collect personal information from children under 13. The app has no accounts, chat or advertising. If you believe a child has sent us personal information, please contact us and we will delete it.</p>
+<p>Cloud Color is made for a general audience. It is not specifically directed at children under 13, and we do not knowingly collect personal information from children under 13. The app has no accounts, chat or advertising, and usage statistics are only shared if someone chooses to share them. If you believe a child has sent us personal information, please contact us and we will delete it.</p>
 
 <h2 id="security">13. Security</h2>
 <p>Information leaves the app only over encrypted connections (HTTPS), and our providers protect it with industry-standard safeguards. No method is perfectly secure, but we keep what we collect to a minimum.</p>
 
 <h2 id="changes">14. Changes to this policy</h2>
-<p>If we change this policy, we will update the date above. For important changes — including turning on usage statistics — we will tell you in the app and ask for your permission where it is required.</p>
+<p>If we change this policy, we will update the date and version above. For important changes we will tell you in the app and ask for your permission again where it is required.</p>
 
 <h2 id="contact">15. Contact</h2>
 <p>Hana Gurz · <a href="mailto:filterdudemain@gmail.com">filterdudemain@gmail.com</a> · or the <a href="../support/#contact">contact form</a>.</p>
